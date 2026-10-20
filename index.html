@@ -1,58 +1,98 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SP Acharya | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav class="navbar">
-        <div class="logo">SP Acharya</div>
+      <div class="logo">SP Acharya</div>
 
-        <button class="menu-toggle" id="menu-toggle"
-                aria-label="Toggle navigation"
-                aria-expanded="false">
-            ☰
-        </button>
+      <button
+        class="menu-toggle"
+        id="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+      >
+        ☰
+      </button>
 
-        <ul class="nav-links" id="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-        </ul>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">My Projects</a></li>
+      </ul>
     </nav>
 
     <header id="home" class="hero">
-        <h1>Hi, I'm SP Acharya</h1>
-        <p>Full Stack Developer and Technical Mentor</p>
+      <h1>Hi, I'm SP Acharya</h1>
+      <p>Full Stack Developer and Technical Mentor</p>
     </header>
 
     <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>
-            I'm a software developer and technical mentor passionate
-            about building applications and helping students develop
-            industry-relevant skills. I enjoy teaching, mentoring,
-            and exploring new technologies.
-        </p>
+      <h2>About Me</h2>
+      <p>
+        I'm a software developer and technical mentor passionate about building
+        applications and helping students develop industry-relevant skills. I
+        enjoy teaching, mentoring, and exploring new technologies.
+      </p>
     </section>
 
     <section id="skills" class="skills">
-    <h2>My Skills</h2>
+      <h2>My Skills</h2>
 
-    <div class="skills-list">
+      <div class="skills-list">
         <span>HTML</span>
         <span>CSS</span>
         <span>JavaScript</span>
         <span>React</span>
         <span>Node.js</span>
         <span>Git & GitHub</span>
-    </div>
-</section>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>My Projects</h2>
+
+      <div class="project-container">
+        <div class="project-card">
+          <h3>Personal Portfolio</h3>
+          <p>
+            A responsive personal website to showcase my introduction, skills,
+            and projects.
+          </p>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+        <div class="project-card">
+          <h3>Task Manager</h3>
+          <p>
+            A simple task management application to add, track, and organize
+            daily tasks.
+          </p>
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>
+            A weather application that displays current weather information for
+            a selected city.
+          </p>
+          <span>JavaScript</span>
+          <span>API</span>
+          <span>CSS</span>
+        </div>
+      </div>
+    </section>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
