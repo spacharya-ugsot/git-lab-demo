@@ -1,0 +1,9 @@
+9e669f0 HEAD@{0}: reset: moving to HEAD~1
+4c3feef HEAD@{1}: commit: F4: contact sectoin wip
+9e669f0 HEAD@{2}: revert: Revert "F3: add footer"
+03e762b HEAD@{3}: commit: F3: add footer
+bf36ebf HEAD@{4}: commit: F2: add projects section
+597a975 HEAD@{5}: commit: F1: add skill section
+18e1433 HEAD@{6}: checkout: moving from main to feature-update
+18e1433 HEAD@{7}: Branch: renamed refs/heads/main to refs/heads/main
+18e1433 HEAD@{9}: commit (initial): S1: initial website

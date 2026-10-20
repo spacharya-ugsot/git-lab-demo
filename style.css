@@ -208,3 +208,68 @@ body {
         grid-template-columns: 1fr;
     }
 }
+
+
+
+.contact {
+    padding: 50px 20px 60px;
+    text-align: center;
+    background-color: #e2e8f0;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 12px;
+}
+
+.contact > p {
+    color: #475569;
+    margin-bottom: 25px;
+}
+
+.contact form {
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 15px;
+}
+
+.contact textarea {
+    resize: vertical;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    outline: 2px solid #38bdf8;
+    border-color: transparent;
+}
+
+.contact button {
+    padding: 12px;
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #1e293b;
+}
+
+#form-status {
+    color: #166534;
+    font-size: 14px;
+}
