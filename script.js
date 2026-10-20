@@ -15,3 +15,17 @@ navLinks.querySelectorAll("a").forEach(function (link) {
         menuToggle.setAttribute("aria-expanded", "false");
     });
 });
+
+
+const contactForm = document.getElementById("contact-form");
+const formStatus = document.getElementById("form-status");
+
+contactForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    formStatus.textContent =
+        "Thank you for your message! The form is a demo and your message has not been sent.";
+
+    contactForm.reset();
+});
+
