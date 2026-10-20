@@ -208,39 +208,3 @@ body {
         grid-template-columns: 1fr;
     }
 }
-
-.footer {
-    background-color: #0f172a;
-    color: white;
-    text-align: center;
-    padding: 30px 20px;
-}
-
-.footer > p:first-child {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 15px;
-}
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
-    margin-bottom: 20px;
-}
-
-.social-links a {
-    color: #cbd5e1;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.social-links a:hover {
-    color: #38bdf8;
-}
-
-.copyright {
-    color: #94a3b8;
-    font-size: 14px;
-}
